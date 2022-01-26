@@ -4,7 +4,7 @@ for j in range(len(palavras)):
     for l in range(len(palavras[j])):
         palavras[j][l] = ['A','a','B','b','C','c','D','d','E','e','F','f','G','g','H','h','I','i','J','j','K','k','L','l','M','m','N','n','O','o','P','p','Q','q','R','r','S','s','T','t','U','u','V','v','W','w','X','x','Y','y','Z','z','0','1','2','3','4','5','6','7','8','9'].index(palavras[j][l])
 # 'Ola meu nome e Giordanni' = [[28, 23, 1], [25, 9, 41], [27, 29, 25, 9], [9], [12, 17, 29, 35, 7, 1, 27, 27, 17]]
-
+#testeee
 alfabetizado = []
 while len(palavras) != 1:
     passaram_pela_leva = range(len(palavras))
