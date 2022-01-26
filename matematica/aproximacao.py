@@ -1,8 +1,8 @@
 from decimal import *
-niveis = 1500 
+niveis = 20
 
 getcontext().prec = int(niveis*1.5)
-numero = Decimal(7)**Decimal(0.5)
+numero = Decimal(2)**Decimal(0.5)
 numero_salvo = numero
 
 x = numero - int(numero)
@@ -23,4 +23,4 @@ if niveis > 0:
 else:
     print(f"Sua aproximacao e {int(numero)}")
 
-#exec(open('aproximacao.py').read())
+#exec(open('matematica/aproximacao.py').read())
